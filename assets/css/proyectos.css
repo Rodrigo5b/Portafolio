@@ -1,0 +1,44 @@
+.contenedor__experiencia{
+    display: grid;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.juego{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    gap: 1rem;
+    margin: auto;
+    align-items: center;
+}
+.img__js{
+    order: 1;
+}
+.img__css{
+    order: 1;
+}
+.img__responsive{
+    width: 100%;
+    cursor: pointer
+}
+.descripcion{
+}
+.botones{
+    display: flex;
+    gap: 10px;
+    margin-top: .5rem;
+}
+.button{
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid rgb(75, 139, 192);
+    font-size: 16px;
+    cursor: pointer;
+}
+.demo{
+    color: #fff;
+    background-color: rgb(75, 139, 192);
+}
+.repositorio{
+    color: rgb(75, 139, 192);
+}
