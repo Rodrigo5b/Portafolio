@@ -1,0 +1,35 @@
+.contenedor__sobre__mi{
+    width: 100%;
+    /* background-color: #6f9bda ; */
+    padding: 1rem 0 1rem 0;
+
+}
+.sobre__mi{
+    width: 80%;
+    margin: auto;
+    line-height: 19px;
+
+}
+.span__h3{
+    font-size: 32px;
+    line-height: 38px;
+}
+.span__bio{
+    display: block;
+}
+.div__informativo{
+    width: 60%;
+}
+.span1{
+    
+}
+@media screen and (max-width: 1025px) {
+    .sobre__mi{
+        width: 90%;
+    }
+    .div__informativo{
+        width: auto
+    }
+    .span1{
+    }
+}
