@@ -1,12 +1,14 @@
 header{
     width: 100%;
     height: auto;
-    /* background-color: aqua; */
+    background-color: antiquewhite;
     display: flex;
     justify-content: center;
-    /* position: fixed;
+    max-width: 1440px;
+    position: fixed;
     z-index: 100;
-    background: #3f3f3f; */
+    padding: 0.5rem 0;
+    border-bottom: 0.1rem solid black;
 }
 .header{
     display: flex;
@@ -14,6 +16,10 @@ header{
     /* background-color: yellow; */
     justify-content: space-between;
     height: 10vh;
+}
+.header a:hover{
+    color: white;
+    border-bottom: .1rem solid gold;
 }
 .user__header{
     display: flex;

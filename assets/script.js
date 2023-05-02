@@ -10,5 +10,5 @@
 //     document.getElementsByTagName('body').removeChild(temp)
 // }
 
-navigator.clipboard.readText().then(
-    clipText => document.querySelector(".editor").innerText += clipText);
+// navigator.clipboard.readText().then(
+//     clipText => document.querySelector(".editor").innerText += clipText);

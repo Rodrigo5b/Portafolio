@@ -1,8 +1,9 @@
+
 .contenedor__sobre__mi{
     width: 100%;
     /* background-color: #6f9bda ; */
-    padding: 1rem 0 1rem 0;
-
+    padding: 2rem 0 3rem;
+    background: var(--section-color);
 }
 .sobre__mi{
     width: 80%;
@@ -32,4 +33,11 @@
     }
     .span1{
     }
+    .span__h3{
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+}
+@media screen and (max-width: 1025px) {
+
 }

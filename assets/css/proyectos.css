@@ -1,3 +1,6 @@
+.experiencia{
+    padding: 2rem 0 3rem;
+}
 .contenedor__experiencia{
     display: grid;
     gap: 3rem;
@@ -41,6 +44,9 @@
 }
 .repositorio{
     color: rgb(75, 139, 192);
+}
+.repositorio:hover{
+    background: #aba9a9;
 }
 
 @media screen and (max-width: 1025px) {

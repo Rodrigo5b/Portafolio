@@ -1,3 +1,9 @@
+.contacto__all{
+    background: #dae3f0;
+    width: 100%;
+    padding: 5rem 0rem 3rem 0rem;
+
+}
 .section__contacto{
     width: 80%;
     margin: auto;
@@ -6,6 +12,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     max-height: 640px;
+
+
 }
 .telefono__contacto{
 
@@ -23,10 +31,21 @@
     border-radius: 1rem;
     border: none;
 }
-input:focus-within{
-    border: 0;
+input:hover .label{
+    border-bottom: 1px solid rgb(0, 166, 255);
+    color: aqua;
 }
 
+input:focus-within{
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid rgb(0, 166, 255);
+
+}
+.input__error{
+    border: 1px solid red;
+    color: red;
+}
 .input__mensaje{
     height: 133px;
 }
@@ -58,10 +77,15 @@ input:focus-within{
     margin-top: 1rem;
     background-color: rgb(75, 139, 192);
     border: none;
+    color: #fff;
     cursor: pointer;
 }
-.mensaje{
-    color: #fff;
+.mensaje:hover{
+    background: #1f3397cf
+}
+#link{
+    opacity: 0;
+    display: none   ;
 }
 @media screen and (max-width: 1025px) {
     .div__button{
@@ -71,8 +95,5 @@ input:focus-within{
     .section__contacto{
         grid-template-columns: 1fr;
         max-height: fit-content;
-    }
-    .input{
-        
     }
 }
