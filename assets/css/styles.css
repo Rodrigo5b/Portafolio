@@ -45,16 +45,3 @@ a{
 main{
     width: 100%;
 }
-@media screen and (max-width: 1025px) {
-    body{
-        width: 100%;
-        display: block;
-    }
-    header{
-        width: 100%;
-    }
-    main{
-        width: 100%;
-        
-    }
-}

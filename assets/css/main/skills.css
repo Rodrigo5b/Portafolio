@@ -30,8 +30,8 @@
     box-sizing: border-box;
 }
 .icon{
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 100%;
 }
 .p__skills{
     font-weight: 700;
@@ -50,8 +50,7 @@
         max-width: 224px;
     } 
     .icon{
-        width: 24px;
-        height: 24px;
+        width: 60px;
     }
     .img__def{
         width: 60%;
@@ -70,4 +69,5 @@
     .box__skills{
         max-width: 152px;
     }
+
 }

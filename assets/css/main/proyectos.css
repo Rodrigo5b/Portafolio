@@ -39,11 +39,14 @@
     color: #fff;
     background-color: rgb(75, 139, 192);
 }
+.demo:hover{
+    background: rgb(24, 102, 166);
+}
 .repositorio{
     color: rgb(75, 139, 192);
 }
 .repositorio:hover{
-    background: #aba9a9;
+    background: #dedede;
 }
 
 @media screen and (max-width: 768px) {
