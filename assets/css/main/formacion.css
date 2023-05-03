@@ -1,0 +1,48 @@
+
+/* formacion */
+.contenedor__formacion{
+    padding: 2rem 0 3rem;
+    background: var(--section-color);
+}
+.formacion{
+    /* background-color: #9b6bd1; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: .8rem;
+
+}
+.div__formacion{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: var(--text-color);
+}
+.img__def{
+    margin: auto;
+}
+.span__academico{
+    background: var(--section-color);
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    padding: 1rem 0rem;
+    margin: 0;
+}
+.div__formacion .span1{
+    background: var(--section-color);
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .formacion{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .formacion{
+        display: flex;
+        flex-direction: column;
+
+    }
+}

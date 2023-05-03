@@ -10,20 +10,21 @@
     <link rel="short cut" type="image/x-icon" href="assets/imagenes/business-time-solid.svg">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/sobreMi.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/header/header.css">
-    <link rel="stylesheet" href="assets/css/datos/datos.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/contacto.css">
-    <link rel="stylesheet" href="assets/css/proyectos.css">
+    <link rel="stylesheet" href="assets/css/header/datos.css">
+    <link rel="stylesheet" href="assets/css/main/sobreMi.css">
+    <link rel="stylesheet" href="assets/css/main/skills.css">
+    <link rel="stylesheet" href="assets/css/main/proyectos.css">
+    <link rel="stylesheet" href="./assets/css/main/formacion.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/footer/contacto.css">
 </head>
 <body>
     <header>
         <div class="header">
             <div class="user__header">
                 <img class="logo__header" src="assets/imagenes/iconos/business-time-solid.svg" alt="Logo Rodrigo">
-                <span class="nombre__header">Bustamante H.R</span>    
+                <span class="nombre__header">Bustamante H.R.</span>    
             </div>
             <div class="contenedor__nav">
                 <nav class="nav">
@@ -35,7 +36,7 @@
                         <li class="nav__item li"><a href="#proyectos">Proyectos</a></li>
                     </ul>
                 </nav>
-                <p onclick="copy(this)" class="correo__header">bustamanterodrigo15@gmail.com</p>
+                <p class="correo__header">bustamanterodrigo15@gmail.com</p>
             </div>
         </div>
     </header>
@@ -45,8 +46,8 @@
                 <img class="usuario" src="assets/imagenes/yo2.png" alt="Foto de sujeto">     
             </div>    
             <div class="datos">
-                <span class="span__h2">Hola, mi nombre es Hernán Rodrigo Bustamante y construyo paginas web</span>
-                <span class="span__desc">Me interesa la computación junto con el mundo de internet y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</span>
+                <span class="span__h2">Hola! Me llamo Rodrigo Bustamante y construyo paginas web</span>
+                <span class="span__desc"> Estoy formado de Ténico Eléctricista. Me encuentro participando del proyecto Oracle ONE en Alura Latam.</span>
                 <ul class="lista__main">
                     <li class="link li"><a class="href" href="https://github.com/Rodrigo5b" target="_blank"> Github <img class="flecha" src="assets/imagenes/iconos/flecha.svg" alt="Direccion"></a></li>
                     <li class="link li"><a class="href" href="https://www.linkedin.com/in/rodrigo-undefined-9a0601263/" target="_blank"> Linkedin <img class="flecha" src="assets/imagenes/iconos/flecha.svg" alt="Direccion"></a></li>
@@ -59,11 +60,10 @@
             <div class="sobre__mi" id="sobre__mi">
                 <h3 class="span__h3">Sobre mi</h3>
                 <div class="div__informativo">
-                    <span class="span1">Nací en San Salvador de Jujuy. Actualmente vivo en Buenos Aires, hace poco termine el secundario tecnico, estoy en busca de trabajo, en mis tiempos libres salgo a caminar, toco la guitarra y hago mantenimientos de pc, </span>
-                    <br><br>
-                    <span class="span2"> ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</span>
+                    <span class="span1"> Mi nombre completo es Hernán Rodrigo Bustamante,tengo 19 años y soy argentino. </span>
+                    <span class="span2">Vivo en Buenos Aires(CABA), me apasiona el mundo de la programación, estoy formandome como desarrollador Front End gracias al curso Alura Latam. Mi siguiente objetivo es hacer una carrera en Desarrollo Web</span>
                     <br>
-                    <img src="assets/imagenes/iconos/firma.svg" alt="firma">
+                    <span class="span2">Me encanta la buena musica, hacer deportes y el trabajo en equipo.</span>
                 </div>
             </div>
         </div>
@@ -73,10 +73,12 @@
                 <div class="skills">
                     <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/html5.svg" alt=""><p class="p__skills">Html 5</p></div>
                     <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/js.svg" alt="">   <p class="p__skills">Javascript</p>  </div>
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/php.svg" alt="">  <p class="p__skills">PHP</p> </div>
                     <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/node.svg" alt=""> <p class="p__skills">Node JS</p>  </div>
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/react.svg" alt=""><p class="p__skills">React</p> </div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/reactL.svg" alt=""><p class="p__skills">React</p> </div>
                     <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/css.svg" alt="">  <p class="p__skills">CSS</p></div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/corel-draw-svgrepo-com.svg" alt="">     <p class="p__skills">Corel Draw</p></div>
+
+
                 </div>   
             </div>
         </div>
@@ -84,12 +86,13 @@
             <h3 class="span__h3 centro">Hobbies</h3>
             <div class="div__skills">
                 <div class="skills">
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/1.svg" alt="">     <p class="p__skills">Patinaje</p></div>
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/guitar.svg" alt=""><p class="p__skills">Tocar guitarra</p></div>
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/2.svg" alt="">     <p class="p__skills">Oír música</p></div>
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/3.svg" alt="">     <p class="p__skills">Ver series</p></div>
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/4.svg" alt="">     <p class="p__skills">Cocinar</p></div>
-                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/cam.svg" alt="">   <p class="p__skills">Tomar fotos</p></div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/iconos/pen-svgrepo-com (1).svg" alt=""><p class="p__skills">Dibujo</p></div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/guitar-svgrepo-com.svg" alt=""><p class="p__skills">Tocar guitarra</p></div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/musica.svg" alt="">     <p class="p__skills">Oír música</p></div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/series.svg" alt="">     <p class="p__skills">Ver series</p></div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/monitor-svgrepo-com (1).svg" alt="">     <p class="p__skills">Informatica</p></div>
+                    <div class="box__skills"><img class="icon" src="assets/imagenes/hobbies/deporte.svg" alt="">     <p class="p__skills">Deportes</p></div>
+
                 </div>   
             </div>
         </div>
@@ -98,43 +101,46 @@
             <div class="formacion">
                 <div class="div__formacion">
                     <img class="img__def" src="assets/imagenes/formacion/fatima.png" alt="" class="img__formacion">
-                    <h3 class="span1 span__academico">Tecnico Electricista</h3>
-                    <span></span>
+                    <h3 class="span1 span__academico">Técnico Electricista</h3>
+                    <span class="span1">2017 hasta /2022</span>
+
                 </div>
                 <div class="div__formacion">
                     <img class="img__def" src="assets/imagenes/formacion/alura.png" alt="" class="img__formacion">
-                    <h3 class="span1 span__academico">Formación en UX Design</h3>
-                    <span></span>
+                    <h3 class=" span__academico">Front End</h3>
+                    <span class="span1">Dic/2022 hasta May/2023</span>
+
                 </div>
                 <div class="div__formacion">
                     <img class="img__def" src="assets/imagenes/formacion/inet.png" alt="" class="img__formacion">
-                    <h3 class="span1 span__academico">Corel Drawl</h3>
-                    <span></span>
+                    <h3 class="span__academico">Corel Drawl</h3>
+                    <span class="span1">Agos/2022 hasta Dic/2022</span>
                 </div>
             </div>
         </div>
-
         <section class="experiencia" id="proyectos">
             <h3 class="span__h3 centro">Experiencia profesional</h3>
             <div class="contenedor__experiencia">
                 <div class="juego">
                     <img class="img__responsive" src="assets/imagenes/trabajos/codigoBinario.png" alt=""></img>
                     <div class="descripcion">
-                        <h3 class="span1">Encriptador de texto</h3>
-                        <span>Challenge Alura Codificador</span> <br>
+                        <h3 class="span1">Traductor Binario</h3>
+                        <span>Challenge Alura Codificador</span><br>
                         <div class="botones">
-                            <button class="button repositorio">Repositório</button>
-                            <a target="_blank" class="button demo" href="proyectos/encriptadorDeTexto/index.html">Ver demo</a>
+                            <a href="https://github.com/Rodrigo5b/traductorBinario" class="button repositorio" target="_blank">Repositório</a>
+                            <a target="_blank" class="button demo" href="https://rodrigo5b.github.io/traductorBinario/">Ver demo</a>
                         </div>
                     </div>
                 </div>
                 <div class="juego">
-                    <img class="img__js img__responsive" src="assets/imagenes/trabajos/htmlYJava.png" alt=""></img>
+                    <img class="img__js img__responsive" src="assets/imagenes/trabajos/responsive.png" alt="Responsive"></img>
                     <div class="descripcion">
-                        <h3 class="span1">Juego creado con HTML y JavaScript</h3>
-                        <span>Challenge Oracle</span> <br>
+                        <h3 class="span1">Pagina Responsiva con HTML y CSS</h3>
+                        <span>Proyecto de Curso</span> <br>
                         <div class="botones">
-                            <button class="button repositorio">Repositório</button><button class="button demo">Ver demo</button>
+                            <a target="_blank" class="button repositorio" href="https://github.com/Rodrigo5b/LayoutResponsivo">Repositório</a>
+
+                            <a target="_blank" class="button demo" href="https://rodrigo5b.github.io/LayoutResponsivo/">Ver demo</a>
                         </div>
                     </div>
                 </div>
@@ -144,18 +150,8 @@
                         <h3 class="span1">Encriptador de texto</h3>
                         <span>Challenge Oracle</span> <br>
                         <div class="botones">
-                            <button class="button repositorio">Repositório</button>
-                            <a target="_blank" class="button demo"href="proyectos/Encriptador/index.html">Ver demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="juego">
-                    <img class="img__css img__responsive" src="assets/imagenes/trabajos/css.png" alt=""></img>
-                    <div class="descripcion">
-                        <h3 class="span1">Juego creado con HTML, CSS y JavaScript</h3>
-                        <span>Challenge Oracle</span> <br>
-                        <div class="botones">
-                            <button class="button repositorio">Repositório</button><button class="button demo">Ver demo</button>
+                            <a href="https://github.com/Rodrigo5b/Encriptador" class="button repositorio" target="_blank">Repositório</a>
+                            <a target="_blank" class="button demo"href="https://rodrigo5b.github.io/Encriptador/">Ver demo</a>
                         </div>
                     </div>
                 </div>
@@ -166,21 +162,22 @@
                     <img class="img__contacto" src="assets/imagenes/contacto.png" alt="Imagen de contacto">
                 <div class="titulo__contacto">
                     <h3 class="span__h3">Contacto</h3>
-                    <p>¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                    <p>¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con ud. lo antes posible.</p>
                         <form action="#" id="form">
                                     <input name="nombre" id="input" class="input"  type="text" required maxlength="50">
                                     <label class="label" id="label" for="">Nombre</label>
-                                    <input name="email" id="input" class="input"  type="email" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" title="Completar el campo Email.">
+                                    <input name="email" id="input" class="input"  type="email" required maxlength="90">
                                     <label class="label" id="label" for="">Email</label>
-                                    <input name="asunto" id="input" class="input"  type="text" required>
+                                    <input name="asunto" id="input" class="input"  type="text" required required maxlength="50">
                                     <label class="label" id="label" for="">Asunto</label>
-                                    <input name="mensaje" id="input" class="input input__mensaje"  type="text" required>
+                                    <textarea name="mensaje" id="input" class="input input__mensaje"  type="text" required required maxlength="350"></textarea>
+                                    <!-- <input name="mensaje" id="input" class="input input__mensaje"  type="text" required> -->
                                     <label class="label label__mensaje" id="label" >Mensaje</label>
                                 <div class="div__button">
                                     <button type="submit" class="button__mensaje mensaje">Enviar Mensaje</button>
                                 </div>
                         </form>
-                        <a href="mailto:bustamanterodrigo15@gmail.com" id="link">-</a>
+                        <a href="mailto:bustamanterodrigo15@gmail.com" id="link">.</a>
                 </div>
             </section>
         </section>

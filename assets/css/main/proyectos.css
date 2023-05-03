@@ -1,0 +1,69 @@
+.experiencia{
+    padding: 2rem 0 3rem;
+}
+.contenedor__experiencia{
+    display: grid;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.juego{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    gap: 1rem;
+    margin: auto;
+    align-items: center;
+}
+.img__js{
+    order: 1;
+}
+.img__css{
+    order: 1;
+}
+.img__responsive{
+    width: 100%;
+}
+.botones{
+    display: flex;
+    gap: 10px;
+    margin-top: .5rem;
+}
+.button{
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid rgb(75, 139, 192);
+    font-size: 16px;
+    cursor: pointer;
+}
+.demo{
+    color: #fff;
+    background-color: rgb(75, 139, 192);
+}
+.repositorio{
+    color: rgb(75, 139, 192);
+}
+.repositorio:hover{
+    background: #aba9a9;
+}
+
+@media screen and (max-width: 768px) {
+    .img__responsive{
+        /* min-height: 340px; */
+        height: auto;
+        width: 100%;
+    }
+    .img__css{
+        order: 0;
+    }
+    .img__js{
+        order: 0;
+    }
+    .juego{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .experiencia{
+        padding: 0;
+        padding-top: 2rem;
+    }
+}
