@@ -1,0 +1,53 @@
+.menu{
+    /* display: grid; */
+    grid-template-columns: repeat(3, 1fr);
+}
+/*Medio*/
+main{
+    min-height: calc(100vh - 96px - 120px);
+    background: #F5F5F5;
+    color: #464646;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    max-width: 423px;
+    margin: auto;
+
+}
+.input{
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #6f6f70;
+}
+.input:hover{
+    border-bottom: 1px solid aqua;
+    outline: none;
+}
+
+.divLogin{
+    display: grid;
+    gap: 1rem;
+}
+.enviar{
+    width: 100%;
+    background: #2A7AE4;
+    padding: 1rem 5rem;
+    outline: none;
+    color: white;
+}
+
+/* Contacto */
+@media screen and (max-width: 768px) {
+
+
+    main{
+        background: red;
+    }
+    
+}
