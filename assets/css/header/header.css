@@ -7,7 +7,6 @@ header{
     position: fixed;
     z-index: 100;
     padding: 8px 0;
-
 }
 .header{
     display: flex;
@@ -26,9 +25,7 @@ header{
     height: 100%;
     width: 3rem;
 }
-.nombre__header{
-
-    font-weight: bold;
+.b{
     word-wrap: break-word;
     word-break: break-all;
 }
@@ -36,11 +33,9 @@ header{
 .contenedor__nav{
     display: flex;
     align-items: center;
-    /* background-color: violet; */
     gap: 1.5rem;
 }
 .lista__header{
-    /* background-color: red; */
     display: flex;
     gap: 1.5rem;
     align-items: center;
