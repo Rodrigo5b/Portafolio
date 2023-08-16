@@ -7,13 +7,11 @@ header{
     position: fixed;
     z-index: 100;
     padding: 8px 0;
-    border-bottom: 1px solid black;
+
 }
 .header{
     display: flex;
-    width: 80%;
     justify-content: space-between;
-    height: 10vh;
 }
 .header a:hover{
     color: white;
